@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.miheader{
+    @apply
+    h-[10vh] flex pl-10 flex-row bg-neutral  border-primary-content text-primary-content transition-all duration-300 sticky z-40
+}
+
+.mifooter{
+    @apply
+    h-[15vh] p-10 footer bg-accent  border-primary-content text-secondary-content
+}
+
+.botonHeader{
+    @apply
+    btn bg-transparent border-transparent hover:text-secondary-content hover:bg-primary-content shadow-none
+}
+
+.minav{
+    @apply
+    h-[10vh] bg-info text-primary-content font-montserrat font-bold p-5 pl-10 items-center flex
+}
